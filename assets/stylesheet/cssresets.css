@@ -1,0 +1,32 @@
+*,*::after,*::before{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 100%;
+    width: 100%;
+    height: 100%;
+    /* overflow-x: hidden; */
+
+}
+li{
+    list-style-type: none;
+
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    &:active{
+        color: inherit;
+    }
+    &:visited{
+        color: inherit;
+    }
+}
+.row{
+    /* height: 100%; */
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
